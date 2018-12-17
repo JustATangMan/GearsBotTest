@@ -39,7 +39,7 @@ public class OI {
 		SmartDashboard.putData("Close Claw", new CloseClaw());
 
 		SmartDashboard.putData("Deliver Soda", new Autonomous());
-
+//hi
 		// Create some buttons
 		JoystickButton dpadUp = new JoystickButton(m_joystick, 5);
 		JoystickButton dpadRight = new JoystickButton(m_joystick, 6);
