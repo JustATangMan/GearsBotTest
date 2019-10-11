@@ -4,6 +4,7 @@
 /* must be accompanied by the FIRST BSD license file in the root directory of */
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
+// y do i always feed as yasuo
 
 package org.usfirst.frc.team7587.robot;
 
@@ -27,6 +28,7 @@ import org.usfirst.frc.team7587.robot.subsystems.Wrist;
  */
 public class Robot extends IterativeRobot {
 	Command m_autonomousCommand;
+	String s = "meme";
 
 	public static DriveTrain m_drivetrain;
 	public static Elevator m_elevator;
@@ -70,7 +72,7 @@ public class Robot extends IterativeRobot {
 		Scheduler.getInstance().run();
 		log();
 	}
-
+	//If you find this you have to call me @ (718) 899-6161!!!
 	@Override
 	public void teleopInit() {
 		// This makes sure that the autonomous stops running when
