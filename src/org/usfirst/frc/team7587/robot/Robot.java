@@ -28,7 +28,7 @@ import org.usfirst.frc.team7587.robot.subsystems.Wrist;
  */
 public class Robot extends IterativeRobot {
 	Command m_autonomousCommand;
-	String s = "meme";
+	String s = "test";
 
 	public static DriveTrain m_drivetrain;
 	public static Elevator m_elevator;
